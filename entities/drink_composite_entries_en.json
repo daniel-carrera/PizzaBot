@@ -1,0 +1,32 @@
+[
+  {
+    "value": "@drink:drink",
+    "synonyms": [
+      "@drink:drink"
+    ]
+  },
+  {
+    "value": "@flavor:flavor @drink:drink",
+    "synonyms": [
+      "@flavor:flavor @drink:drink"
+    ]
+  },
+  {
+    "value": "@flavor:flavor @drink:milkshake with @milk_type:milk_type",
+    "synonyms": [
+      "@flavor:flavor @drink:milkshake with @milk_type:milk_type"
+    ]
+  },
+  {
+    "value": "@flavor:flavor @milk_type:milk_type @drink:milkshake",
+    "synonyms": [
+      "@flavor:flavor @milk_type:milk_type @drink:milkshake"
+    ]
+  },
+  {
+    "value": "@milk_type:milk_type @flavor:flavor @drink:milkshake",
+    "synonyms": [
+      "@milk_type:milk_type @flavor:flavor @drink:milkshake"
+    ]
+  }
+]

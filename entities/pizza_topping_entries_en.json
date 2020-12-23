@@ -1,0 +1,74 @@
+[
+  {
+    "value": "pepper",
+    "synonyms": [
+      "pepper"
+    ]
+  },
+  {
+    "value": "mushroom",
+    "synonyms": [
+      "mushroom",
+      "mushrooms"
+    ]
+  },
+  {
+    "value": "bacon",
+    "synonyms": [
+      "bacon",
+      "bacon pieces",
+      "bacon bits",
+      "bacon slices"
+    ]
+  },
+  {
+    "value": "vegetarian",
+    "synonyms": [
+      "vegetarian",
+      "veggie"
+    ]
+  },
+  {
+    "value": "cheese",
+    "synonyms": [
+      "cheese"
+    ]
+  },
+  {
+    "value": "jalapeno",
+    "synonyms": [
+      "jalapeno",
+      "hot peppers"
+    ]
+  },
+  {
+    "value": "sausage",
+    "synonyms": [
+      "sausage"
+    ]
+  },
+  {
+    "value": "onion",
+    "synonyms": [
+      "onion"
+    ]
+  },
+  {
+    "value": "ham",
+    "synonyms": [
+      "ham"
+    ]
+  },
+  {
+    "value": "pineapple",
+    "synonyms": [
+      "pineapple"
+    ]
+  },
+  {
+    "value": "chicken",
+    "synonyms": [
+      "chicken"
+    ]
+  }
+]

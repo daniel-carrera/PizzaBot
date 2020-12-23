@@ -1,0 +1,93 @@
+{
+  "id": "2177e1a2-ef52-49db-a67c-2cc33972f416",
+  "name": "order.pizza",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ae8693bd-67a3-4530-95b5-36b2ef539a8e",
+          "name": "date-time",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What day and time do you want to pick up the order?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b5403fb0-5ed3-4aa8-a9a6-153b23616ee1",
+          "name": "pizza_topping",
+          "required": true,
+          "dataType": "@pizza_topping",
+          "value": "$pizza_topping",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What toppings do you want on your pizza?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9623a0c4-ba56-44dc-9377-dc93cbf379c2",
+          "name": "size",
+          "required": true,
+          "dataType": "@size",
+          "value": "$size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size pizza do you want?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "We have placed your order for a $size pizza with $pizza_topping, for pickup on $date.original at $time.original. See you then!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
