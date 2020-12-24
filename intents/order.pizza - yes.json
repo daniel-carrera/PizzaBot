@@ -1,12 +1,16 @@
 {
-  "id": "5d7d515f-6b20-48a8-92f2-4b0960c16222",
-  "name": "Default Welcome Intent",
+  "id": "5e4fe37b-9068-4dd5-898e-815c4a97a9d0",
+  "parentId": "2177e1a2-ef52-49db-a67c-2cc33972f416",
+  "rootParentId": "2177e1a2-ef52-49db-a67c-2cc33972f416",
+  "name": "order.pizza - yes",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "orderpizza-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
+      "action": "orderpizza.orderpizza-yes",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -16,8 +20,7 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Welcome to our store. I can assist you with store hours or place an order. Which would you like ?",
-            "Hello there. I can assist you with store hours or place an order. How may I help you today ?"
+            "Great, what would you like?"
           ],
           "condition": ""
         }
@@ -26,14 +29,10 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ],
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

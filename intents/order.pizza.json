@@ -7,10 +7,15 @@
     {
       "resetContexts": false,
       "action": "",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "orderpizza-followup",
+          "lifespan": 2
+        }
+      ],
       "parameters": [
         {
-          "id": "ae8693bd-67a3-4530-95b5-36b2ef539a8e",
+          "id": "bb1a8e2d-39a1-42b2-8255-b47b4ddab1f4",
           "name": "date-time",
           "required": true,
           "dataType": "@sys.date-time",
@@ -29,7 +34,7 @@
           "outputDialogContexts": []
         },
         {
-          "id": "b5403fb0-5ed3-4aa8-a9a6-153b23616ee1",
+          "id": "695eb57f-9b3c-4ac6-b5d6-919b95f076b0",
           "name": "pizza_topping",
           "required": true,
           "dataType": "@pizza_topping",
@@ -48,7 +53,7 @@
           "outputDialogContexts": []
         },
         {
-          "id": "9623a0c4-ba56-44dc-9377-dc93cbf379c2",
+          "id": "e59a9d56-8465-493c-aa23-0daafb09bad3",
           "name": "size",
           "required": true,
           "dataType": "@size",
@@ -74,7 +79,7 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "We have placed your order for a $size pizza with $pizza_topping, for pickup on $date.original at $time.original. See you then!"
+            "Great! We\u0027ve created your order for a $size pizza with $pizza_topping for pickup on $date.original at $time.original. Would you like a drink with that?"
           ],
           "condition": ""
         }
@@ -83,7 +88,7 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],

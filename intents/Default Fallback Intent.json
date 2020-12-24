@@ -1,5 +1,5 @@
 {
-  "id": "2fb26d35-b0c7-4d3d-b26a-4d0b947d82ae",
+  "id": "81f304e4-8c22-40df-818c-2272e7a0daf7",
   "name": "Default Fallback Intent",
   "auto": true,
   "contexts": [],
@@ -26,7 +26,7 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": true,
   "events": [],
